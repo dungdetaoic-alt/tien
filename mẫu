@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mô hình ETHANOL</title>
+  <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jsmol/JSmol.min.js"></script>
+  <script type="text/javascript">
+    var Info = {
+      width: 500,
+      height: 500,
+      use: "HTML5",
+      j2sPath: "https://chemapps.stolaf.edu/jmol/jsmol/j2s",
+      script: "load ETHANOL.mol; spin on;",
+      debug: false
+    };
+  </script>
+</head>
+<body>
+  <h2 style="text-align:center;">Mô hình phân tử ETHANOL</h2>
+  <div style="display:flex; justify-content:center;">
+    <script type="text/javascript">
+      Jmol.getApplet("jmolApplet0", Info);
+    </script>
+  </div>
+</body>
+</html>
